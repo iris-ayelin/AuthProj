@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+<body>
+    <script src="app.js" type="module"></script>
+    <h1>Registered Users:</h1>
+    <table id="userTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="userTable"></tbody>
+    </table>
+    <p> </p>
+    <button onclick="goToSignUp()">Sign Up</button>
+    <button onclick="goToSignIn()">Sign In</button>
+
+    <script>
+        // Function to redirect to the sign-up page
+        function goToSignUp() {
+            window.location.href = 'signUp.html';
+        }
+
+        // Function to redirect to the sign-in page
+        function goToSignIn() {
+            window.location.href = 'signIn.html';
+        }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+
+</body>
+</html>

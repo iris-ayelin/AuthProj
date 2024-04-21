@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+/* Styles for the delete button */
+button {
+    margin: 5px;  /* Adjust margin for spacing */
+    padding: 5px 10px;  /* Adjust padding for button size */
+    background-color: #f0594a;  /* Change color as desired */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e04d3a;  /* Adjust hover color based on base color */
+}
